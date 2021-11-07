@@ -1,12 +1,11 @@
-import '../scss/App.scss';
+// import '../scss/App.scss';
+import Navebar from './navbar/Navbar'
 
 function App() {
     return (
-        <div className="App">
-            <header className="App-header">
-                <p>learn react</p>
-            </header>
-        </div>
+        <>
+            <Navebar></Navebar>
+        </>
     );
 }
 
